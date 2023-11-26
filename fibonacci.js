@@ -20,3 +20,20 @@ function fibs (num) {
     }
     return array
 }
+
+//console.log(fibs(10))
+
+function fibsRec (num) {
+    let array
+    if (num === 1) {
+        array = [0]
+    }
+    if (num === 2) {
+        array = [0, 1]
+    }
+    if (num > 2) {
+        
+    }
+    return array
+}
+console.log(fibsRec(5))
